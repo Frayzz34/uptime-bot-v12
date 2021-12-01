@@ -1,2 +1,1 @@
-# uptime-bot-v12
-uptime bot v12
+Selamlar Burda Discord'da Uptime bot v12 Versiyonu Yaptım Token, Prefix index.js giricekdir
