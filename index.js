@@ -8,7 +8,7 @@ const Discord = require("discord.js")
 const fetch = require('node-fetch');
 const app = express();
 const client = new Discord.Client();
-const prefix = '!'
+const prefix = '!' // PREFİX
 
 setInterval(() => {
 const Linkler = db.get('Linkler')
@@ -246,4 +246,4 @@ client.on("message", async message => {
 const Log = message => {
 console.log(`${message}`)
 }
-client.login('token')
+client.login('token') // TOKEN
